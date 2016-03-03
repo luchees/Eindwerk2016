@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<macros>
+	
+    
+	<tcp>
+		
+        
+		<name>LDAP</name>
+		
+        
+		<sport>1030</sport>
+		
+        
+		<dport>389</dport>
+		
+    
+	</tcp>
+	
+    
+	<tcp>
+		
+        
+		<name>Cerberus</name>
+		
+        
+		<sport>1030</sport>
+		
+        
+		<dport>21</dport>
+		
+    
+	</tcp>
+	
+    
+	<icmp>
+		
+        
+		<name>ping</name>
+		
+        
+		<icmpcode>1</icmpcode>
+		
+        
+		<icmptype>1</icmptype>
+		
+        
+		<icmpid>1</icmpid>
+		
+    
+	</icmp>
+	
+    
+	<icmp>
+		
+        
+		<name>noping</name>
+		
+        
+		<icmpcode>1</icmpcode>
+		
+        
+		<icmptype>1</icmptype>
+		
+        
+		<icmpid>1</icmpid>
+		
+    
+	</icmp>
+	
+    
+	<udp>
+		
+        
+		<name>dns</name>
+		
+        
+		<sport>53</sport>
+		
+        
+		<dport>53</dport>
+		
+    
+	</udp>
+	
+    
+	<udp>
+		
+        
+		<name>dnas</name>
+		
+        
+		<sport>88</sport>
+		
+        
+		<dport>88</dport>
+		
+    
+	</udp>
+	
+    
+	<rawip>
+		
+        
+		<name>rawip50</name>
+		
+        
+		<ipprot>50</ipprot>
+		
+    
+	</rawip>
+	
+    
+	<rawip>
+		
+        
+		<name>rawip100</name>
+		
+        
+		<ipprot>100</ipprot>
+		
+    
+	</rawip>
+	
+
+	<tcp>
+		
+    
+		<name>TCP50</name>
+		
+    
+		<sport>50</sport>
+		
+    
+		<dport>50</dport>
+		
+
+	</tcp>
+	
+
+<tcp><name>wwwTCP</name><sport>80</sport><dport>80</dport></tcp><tcp><name>ditiseentest</name><sport>222</sport><dport>33</dport></tcp><udp><name>lololol</name><sport>22</sport><dport>44</dport></udp><icmp><name>ezgfefzffzefez</name><icmpcode>1</icmpcode><icmptype>2</icmptype><icmpid>3</icmpid></icmp><udp><name>wwwUDP</name><sport>80</sport><dport>80</dport></udp></macros>
